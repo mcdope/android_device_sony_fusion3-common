@@ -694,10 +694,10 @@ on property:sys.perf.profile=0
     write /sys/devices/platform/kgsl-3d0.0/kgsl/kgsl-3d0/pwrscale/policy "conservative"
 
 on property:sys.perf.profile=1
-    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "interactive"
-    write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor "interactive"
-    write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor "interactive"
-    write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor "interactive"
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "intelliactive"
+    write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor "intelliactive"
+    write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor "intelliactive"
+    write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor "intelliactive"
     write /sys/devices/platform/kgsl-3d0.0/kgsl/kgsl-3d0/pwrscale/policy "msm"
 
 on property:sys.perf.profile=2
